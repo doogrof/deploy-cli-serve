@@ -9,6 +9,10 @@
   "bin": {
     "deploy-cli-serve": "bin/deploy-cli-serve.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/doogrof/deploy-cli-serve"
+  },
   "directories": {
     "lib": "lib"
   },
