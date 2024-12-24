@@ -1,6 +1,6 @@
 {
   "name": "deploy-cli-serve",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "前端自动化部署脚手架服务",
   "main": "lib/service.js",
   "author": {
