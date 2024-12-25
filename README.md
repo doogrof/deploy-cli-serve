@@ -2,6 +2,10 @@
 
 前端自动化部署脚手架服务
 
+## 更新日志
+
+- 增加 deploy.config.js 内 outputDir 配置，自定义构建包名
+
 ## 全局安装
 
 ```command
@@ -23,7 +27,6 @@ yarn add deploy-cli-serve
 - 使用了 yarn 来执行构建安装，建议 node 版本 18+
 - windows 使用 git bash 运行会有飞书推送消息中文乱码的问题， 建议使用 cmd 或 Windows PowerShell
 - 所需 package: node-ssh cli-progress archiver ansi-colors
-- 项目打包文件名为 vue.config.js 中的 outputDir(默认 dist)
 - 飞书群消息发送需要群聊机器人的 webhook 地址，参考网址: https://open.feishu.cn/document/client-docs/bot-v3/add-custom-bot
 
 查看帮助
